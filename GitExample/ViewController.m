@@ -15,6 +15,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    NSLog(@"This is git tutorial");
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -26,4 +27,7 @@
 }
 
 
+- (IBAction)clickTest:(id)sender {
+    NSLog(@"rrrrrrr");
+}
 @end
