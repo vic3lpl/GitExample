@@ -16,6 +16,7 @@
 		62E96F761F42BCFA0000D65C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E96F741F42BCFA0000D65C /* LaunchScreen.storyboard */; };
 		62E96F811F42BCFA0000D65C /* GitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E96F801F42BCFA0000D65C /* GitExampleTests.m */; };
 		62E96F8C1F42BCFA0000D65C /* GitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E96F8B1F42BCFA0000D65C /* GitExampleUITests.m */; };
+		62E96F9B1F42DB420000D65C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E96F9A1F42DB420000D65C /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		62E96F871F42BCFA0000D65C /* GitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E96F8B1F42BCFA0000D65C /* GitExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitExampleUITests.m; sourceTree = "<group>"; };
 		62E96F8D1F42BCFA0000D65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E96F991F42DB420000D65C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		62E96F9A1F42DB420000D65C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				62E96F771F42BCFA0000D65C /* Info.plist */,
 				62E96F6F1F42BCFA0000D65C /* GitExample.xcdatamodeld */,
 				62E96F631F42BCFA0000D65C /* Supporting Files */,
+				62E96F991F42DB420000D65C /* SecondViewController.h */,
+				62E96F9A1F42DB420000D65C /* SecondViewController.m */,
 			);
 			path = GitExample;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E96F9B1F42DB420000D65C /* SecondViewController.m in Sources */,
 				62E96F6B1F42BCFA0000D65C /* ViewController.m in Sources */,
 				62E96F681F42BCFA0000D65C /* AppDelegate.m in Sources */,
 				62E96F651F42BCFA0000D65C /* main.m in Sources */,
